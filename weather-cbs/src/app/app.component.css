@@ -1,0 +1,87 @@
+
+
+.container{
+  background-color: rgba(0,0,0,0.25);
+  box-shadow: 1px 1px 5px black;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.custombutton{
+  background-color: orange;/* Green */
+  border: darkgrey;
+  color: dimgray;
+  padding: 15px 15px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+
+.card{
+  height: 500px;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 2.5cm;
+  left: 3%;
+  width: 400px;
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+  font-size: 60px;
+  margin-left: 10px;
+  color: #FFC312;
+}
+
+.social_icon span:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.card-header h2{
+  color: white;
+}
+
+.social_icon{
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+.input-group-prepend{
+  width: 50px;
+  color: antiquewhite;
+
+}
+
+input:focus{
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+  color: white;
+}
+
+.remember input
+{
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn{
+  color: black;
+  background-color: #FFC312;
+  width: 100px;
+}
+
+.login_btn:hover{
+  color: black;
+  background-color: white;
+}
+

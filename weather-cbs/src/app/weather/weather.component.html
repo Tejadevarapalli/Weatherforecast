@@ -1,0 +1,41 @@
+<section class="wrapper">
+  <!-- animation icons-->
+  <div class="icon sun-shower">
+    <div class="cloud"></div>
+    <div class="sun">
+      <div class="rays"></div>
+    </div>
+    <div class="rain"></div>
+  </div>
+  <div class="icon flurries">
+    <div class="cloud"></div>
+    <div class="snow">
+      <div class="flake"></div>
+      <div class="flake"></div>
+    </div>
+  </div>
+  <div class="icon sunny">
+    <div class="sun">
+      <div class="rays"></div>
+    </div>
+  </div>
+  <!--the output data from the api is displayed here-->
+  <div class="input-group-prepend">
+    <p>
+      <label class="textcolor"><h2 style="color: #FFC312">&nbsp;Temperature:&nbsp;{{resultdata.current_observation.temp_f}}°F </h2></label>
+    </p>
+    <p>
+    <label class="textcolor"><h2 style="color: #FFC312">&nbsp;Humidity:&nbsp;&nbsp;{{resultdata.current_observation.relative_humidity}}</h2></label>
+    </p>
+    <p>
+    <label class="textcolor"><h2 style="color: #FFC312">&nbsp;Wind:&nbsp;&nbsp;{{resultdata.current_observation.wind_mph}}Mph</h2></label>
+    </p>
+    <p>
+    <label class="textcolor"><h2 style="color: #FFC312">&nbsp;Pressure:&nbsp;{{resultdata.current_observation.pressure_in}}Hg</h2></label>
+    </p>
+  </div>
+  <br>
+  <p>&nbsp;{{resultdata.current_observation.observation_location.full}}<br>
+  &nbsp;{{resultdata.current_observation.observation_time}}</p>
+</section>
+

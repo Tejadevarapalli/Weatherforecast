@@ -1,0 +1,31 @@
+<!--to call the weather and temp  child components and pass the object values from parent to child  -->
+
+<app-weather [resultdata]= "resultdata" [hourlydata]="hourlydata"></app-weather>
+<app-temp [resultdata]= "resultdata" [hourlydata]="hourlydata"></app-temp>
+<!--Card to have to input the state and city -->
+
+<div class="card">
+  <div class="card-header">
+    <h2>Weather Forecast</h2>
+  </div>
+  <div class="card-body">
+    <div class="input-group form-group">
+      <div class="input-group-prepend">
+        <h2>City</h2>
+      </div>
+      <!--declared the city and state variable in app component,
+       Values are passed from this input to app module typescript on using click button function -->
+      <div class="custombutton"><input type="text" [(ngModel)]="city" size="28" placeholder="Enter City"/></div>
+      <div class="input-group form-group">
+        <div class="input-group-prepend">
+          <h2>State</h2>
+        </div>
+        <div class="custombutton"><input type="text" [(ngModel)]="state" size="28" placeholder="Enter State"/></div>
+      </div>
+      <div>
+        <button type="button" class="custombutton" (click)="checkreport()"><b>Go</b></button>
+      </div>
+    </div>
+  </div>
+</div>
+
