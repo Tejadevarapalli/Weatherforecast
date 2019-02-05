@@ -5,6 +5,8 @@
   box-shadow: 1px 1px 5px black;
   padding: 50px;
   border-radius: 10px;
+  height: 100%;
+  width:100%;
 }
 
 .custombutton{
@@ -14,18 +16,18 @@
   padding: 15px 15px;
   text-align: center;
   border-radius: 50px;
-  font-size: 20px;
+  font-size: 150%;
 }
 
 
 .card{
-  height: 500px;
+  height: 65%;
   padding: 10px;
   border-radius: 10px;
   position: absolute;
   top: 2.5cm;
   left: 3%;
-  width: 400px;
+  width: 24%;
   background-color: rgba(0,0,0,0.5) !important;
 }
 

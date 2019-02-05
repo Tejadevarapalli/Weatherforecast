@@ -1,6 +1,6 @@
 
 .wrapper {
-  width:150px;
+  width:9%;
   height:500px;
   background:#2d3034;
   background:linear-gradient(
@@ -8,7 +8,7 @@
     #212527 100%);
   position:absolute;
   right:25%;
-  top:2cm;
+  top: 10%;
   margin:15px -320px;
   padding-top:50px;
   box-shadow:0 0 25px #000;
@@ -16,7 +16,7 @@
 }
 
 .wrapper1 {
-  width: 150px;
+  width: 9%;
   height:500px;
   background:#2d3034;
   background:linear-gradient(
@@ -24,7 +24,7 @@
     #212527 100%);
   position:absolute;
   right:40%;
-  top:2cm;
+  top:10%;
   margin:15px -320px;
   padding-top:50px;
   box-shadow:0 0 25px #000;
@@ -32,8 +32,8 @@
 }
 
 .container{
-  width: 120px;
-  height: 100px;
+  width: 80%;
+  height: 25%;
   background: grey;
   border-radius: 10px;
   margin-left:15px -320px ;
@@ -41,8 +41,8 @@
 }
 
 .container1{
-  width: 120px;
-  height: 100px;
+  width: 80%;
+  height: 25%;
   background: grey;
   border-radius: 10px;
   margin-left:15px -320px ;

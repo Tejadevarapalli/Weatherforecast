@@ -6,15 +6,15 @@
   font-family:"Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 .wrapper {
-  width:600px;
-  height:550px;
+  width: 32%;
+  height:75%;
   background:#2d3034;
   background:linear-gradient(
     #2d3034 0%,
     #212527 100%);
   position:absolute;
-  left:50%;
-  top:2cm;
+  left:52%;
+  top: 6%;
   margin:15px -320px;
   padding-top:50px;
   box-shadow:0 0 25px #000;
@@ -22,7 +22,7 @@
 }
 
 .input-group-prepend {
-  width: 50px;
+  width: 50%;
   font-size: large;
   color: antiquewhite;
   padding-top:50px;
@@ -35,7 +35,7 @@ html *:before,
 html *:after { box-sizing: inherit; }
 
 body {
-  max-width: 42em;
+  max-width: 40%;
   text-align: center;
   background-color: currentColor;
   margin: 0 auto;
